@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         ),
         body: const Center(
           child: Text(
-            'Hallo Nama Saya Nafis Rizqullah',
+            'Hallo Nama Saya Nafis Rizqullah Kelas D',
             textAlign: TextAlign.center,
           )
         ),
