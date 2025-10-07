@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'screens/login_screen.dart';
 import 'screens/signup_screen.dart';
+import 'screens/dashboard_screen.dart';
 
 void main() => runApp(const MyApp());
 
@@ -43,6 +44,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => const LoginScreen(), // default = Sign In
         "/signin": (_) => const LoginScreen(),
         '/signup': (_) => const SignupScreen(),
+        '/dashboard': (_) => const DashboardScreen(),
       },
     );
   }
